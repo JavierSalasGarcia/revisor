@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Subir reporte</title>
+<style type="text/css">
+body,td,th {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+</style>
+</head>
+<body>
+	<form action="uploadpractica.php" method="post" enctype="multipart/form-data">
+  <label for="carrera"><br>
+    </label>
+  <table width="546" border="0">
+    <tbody>
+      <tr>
+        <td height="50">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><h1><strong>SUBIR REPORTE</strong></h1></td>
+      </tr>
+      <tr>
+        <td width="18" height="40">&nbsp;</td>
+        <td width="210">Carrera:</td>
+        <td width="304">
+          <select name="carrera">
+          <option value="IEL">IEL</option>
+          <option value="ICO">ICO</option>
+          <option value="MMT">MMT</option>
+          <option value="DCTBC">DCTBC</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td height="49">&nbsp;</td>
+        <td><label for="unidad">Unidad de Aprendizaje:</label></td>
+        <td>
+          <select name="unidad" id="unidad">
+          <option value="" >Seleccionar</option>
+          <option value="M2">Microprocesadores II</option>
+          <option value="CE">Cómputo paralelo</option>
+		      <option value="SE">Sistemas Embebidos</option>
+          <option value="DPT">Diseño de Proyecto Terminal</option>
+          <option value="IE">Instrumentación Electrónica</option>
+        </select></td>
+      </tr>
+      <tr>
+        <td height="41">&nbsp;</td>
+        <td><label for="num_equipo">Número de equipo:</label></td>
+        <td>
+          <select name="num_equipo" id="num_equipo">
+            <option value="">Seleccionar</option>
+            <option value="01">01</option>
+            <option value="02">02</option>
+            <option value="03">03</option>
+            <option value="04">04</option>
+            <option value="05">05</option>
+            <option value="06">06</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td height="42">&nbsp;</td>
+        <td><label for="num_practica">Número de práctica:</label></td>
+        <td>
+          <select name="num_practica" id="num_practica">
+          <option value="00">00</option>
+          <option value="01">01</option>
+          <option value="02">02</option>
+          <option value="03">03</option>
+          <option value="04">04</option>
+          <option value="05">05</option>
+          <option value="06">06</option>
+          <option value="07">07</option>
+          <option value="08">08</option>
+          <option value="09">09</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+        </select></td>
+      </tr>
+        <td height="45">&nbsp;</td>
+        <td><label for="archivo2">Archivo (PDF):</label></td>
+        <td><input type="file" name="archivo" accept="application/pdf"></td>
+      </tr>
+      <tr>
+        <td height="46">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><input type="submit" value="Subir archivo"></td>
+      </tr>
+      <tr>
+        <td height="46">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td><p>No olvides subir también tu reporte con sus anexos a la actividad de Teams como evidencia.</p>
+        <p>&nbsp;</p>
+        <p>Atte, Javier Salas</p></td>
+      </tr>
+    </tbody>
+  </table>
+  <label for="carrera"><br>
+  </label>
+  <br>
+</form> 
+</body>
+</html>

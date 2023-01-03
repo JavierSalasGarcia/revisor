@@ -1,0 +1,1 @@
+& C:/Users/edigi/.conda/envs/entorno1/python.exe z:/Proyectos/Revisar/descargarAvances.py

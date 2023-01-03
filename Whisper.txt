@@ -1,0 +1,2 @@
+Descargar y ver la documentación para su instalación de:
+https://github.com/openai/whisper
